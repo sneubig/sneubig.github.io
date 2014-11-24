@@ -134,7 +134,7 @@ section h2{
 #section2 h4{
 	text-align: center;
 	margin-top: 1em;
-	margin-bottom: 2em;
+	margin-bottom: 1.5em;
 }
 
 #section2 img, p{
@@ -193,18 +193,23 @@ section h2{
 
 	#section2 .project-box{
 		display: inline-block;
-		width: 60%;
+		width: 80%;
 		position: relative;
-		left: 20%;
+		left: 10%;
 	}
 
+	#section2 p{
+		position: relative;
+		top: 1em;
+		left: 5%;
+	}
 	#section4 ul{
 		position: relative;
 		left: 25%;
 	}
 }
 
-@media (min-width: 780px){
+@media and (min-width: 780px){
 
 /*Section1*/
 
@@ -214,7 +219,8 @@ section h2{
 	}
 	#section1 p{
 		position: absolute;
-		left: 50%;
+		left: 70%;
+		top: 5em;
 		display: inline-block;
 	}
 
@@ -225,17 +231,20 @@ section h2{
 	}
 	.project-box{
 		display: inline-block;
-		width: 60%;
+		width: 80%;
 		position: relative;
-		left: 20%;
+	/*	left: 10%;*/
 	}
 	#section2 img{
-
+		display: inline-block;
+		position: relative;
+	/*	left: -5%;*/
 	}
 	#section2 p{
+		display: inline-block;
 		position: relative;
-		top: -2em;
-		left: 10%
+		top: -3em;
+		margin-left: 10%;
 	}
 
 /*Section3*/
@@ -267,7 +276,4 @@ section h2{
 	left: 35%;
 }
 
-#section4
-
-}
 
