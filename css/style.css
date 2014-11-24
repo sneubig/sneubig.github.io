@@ -243,7 +243,7 @@ section h2{
 	#section2 p{
 		display: inline-block;
 		position: relative;
-		top: -3em;
+		top: 3em;
 		margin-left: 10%;
 	}
 
