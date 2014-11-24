@@ -38,6 +38,14 @@ h2, h4{
 	text-align: center;
 }
 
+a{
+	color: black;
+}
+
+a:visited{
+	color: orange;
+}
+
 .nav-option{
 	width: 24%;
 	height: 100%;
@@ -180,7 +188,7 @@ section h2{
 	#section1 p{
 		position: absolute;
 		left: 50%;
-		display: inline-block;
+	/*	display: inline-block;*/
 	}
 
 	#section2 .project-box{
