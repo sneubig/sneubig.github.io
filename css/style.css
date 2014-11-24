@@ -187,8 +187,9 @@ section h2{
 
 	#section1 p{
 		position: absolute;
-		left: 50%;
 	/*	display: inline-block;*/
+		top: 10%;
+		left: 45%;
 	}
 
 	#section2 .project-box{
@@ -209,19 +210,22 @@ section h2{
 	}
 }
 
-@media (min-width: 780px){
+@media (min-width: 920px){
 
 /*Section1*/
-
+	
+	#section1 h2{
+		position: relative;
+		top: .5em;
+	}
 	#section1 img{
 		position: absolute;
 		left: 10%;
 	}
 	#section1 p{
 		position: absolute;
-		left: 70%;
-		top: 5em;
 		display: inline-block;
+		font-size: 1.2em;
 	}
 
 /*Section2*/
