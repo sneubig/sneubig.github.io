@@ -155,7 +155,7 @@ section h2{
 }
 
 #section4 ul{
-	width: 60%;
+	width: 80%;
 	position: absolute;
 	left: 10%;
 }
@@ -171,15 +171,27 @@ section h2{
 
 @media (min-width: 500px){
 	#section1 img{
+		width: 35%;
 		position: absolute;
-		left: 10%;
+		left: 5%;
 	}
 
 	#section1 p{
 		position: absolute;
-		left: 40%;
+		left: 45%;
 		display: inline-block;
-		
+	}
+
+	#section2 .project-box{
+		display: inline-block;
+		width: 60%;
+		position: relative;
+		left: 20%;
+	}
+
+	#section4 ul{
+		position: relative;
+		left: 25%;
 	}
 }
 
@@ -241,9 +253,12 @@ section h2{
 /*Section4*/
 
 #section4 ul{
+	width: 60%;
 	position: relative;
 	left: 35%;
 }
+
+#section4
 
 }
 
