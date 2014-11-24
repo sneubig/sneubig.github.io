@@ -124,13 +124,7 @@ section h2{
 	left: 10%;
 }
 
-#section1 p:first-child{
-	font-weight: bold;
-	text-align: center;
-	display: block;
-	position: relative;
-	left: 10%;
-}
+
 
 
 
@@ -196,9 +190,9 @@ section h2{
 	}
 
 	#section1 p{
-		position: absolute;
-	/*	display: inline-block;*/
-		top: 10%;
+		width: 60%;
+		top: 30%;
+		position: relative;
 		left: 45%;
 	}
 
@@ -233,8 +227,7 @@ section h2{
 		left: 10%;
 	}
 	#section1 p{
-		position: absolute;
-		display: inline-block;
+		position: relative;
 		font-size: 1.2em;
 	}
 
