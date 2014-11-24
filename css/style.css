@@ -217,5 +217,33 @@ section h2{
 		left: 10%
 	}
 
+/*Section3*/
+	
+	#section3 h2{
+		margin-bottom: 1.5em;
+	}
+	.skills-list{
+		width: 80%;
+		position: relative;
+		left: 20%;
+		display: block;
+	}
+	#section3 h4{
+		display: inline-block;
+	}
+
+	#section3 p{
+		max-width: 40em;
+		position: relative;
+		display: inline-block;
+	}
+
+/*Section4*/
+
+#section4 ul{
+	position: relative;
+	left: 35%;
+}
+
 }
 
