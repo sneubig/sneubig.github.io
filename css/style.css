@@ -124,6 +124,16 @@ section h2{
 	left: 10%;
 }
 
+#section1 p:first-child{
+	font-weight: bold;
+	text-align: center;
+	display: block;
+	position: relative;
+	left: 10%;
+}
+
+
+
 
 /******** Slide 4 ***********/
 
