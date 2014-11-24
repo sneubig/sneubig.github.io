@@ -1,7 +1,11 @@
 /******* General ********/
+<<<<<<< HEAD
 *{
 	box-sizing: border-box;
 }
+=======
+
+>>>>>>> 24595083c97fd556911856a01da73962bc05ecf4
 body, html{
 	width: 100%;
 	height: 100%;
@@ -10,6 +14,7 @@ body, html{
 header{
 	width: 100%;
 	height: 10%;
+<<<<<<< HEAD
 }
 
 header h3{
@@ -74,10 +79,51 @@ section h2{
 	padding-top: 1em;
 	text-decoration: underline;
 	text-align: center;
+=======
+	background-color: #ccc;
+}
+
+header h6{
+	display: inline-block;
+	float: left;
+}
+nav{
+	width: 60%;
+	float: right;
+}
+nav ul{
+	width: 100%;
+	margin: 0 auto;
+	border: 1px solid black;
+	position: relative;
+	left: -40px;
+}
+nav ul li{
+	width: 20%;
+	list-style-type: none;
+	display: inline-block;
+	border: 1px solid black;
+	position: relative;
+	left: -40px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+section{
+	width: 100%;
+	height: 75%;
+	border: 1px solid black;
+	margin: 5% 0;
+}
+
+section h2{
+	text-decoration: underline;
+>>>>>>> 24595083c97fd556911856a01da73962bc05ecf4
 }
 
 .container{
 	width: 90%;
+<<<<<<< HEAD
 	height: 100%;
 	margin-left: 5%;
 }
@@ -123,11 +169,76 @@ section h2{
 	display: inline-block;
 }
 
+=======
+	height: 90%;
+	margin-left: 5%;
+}
+
+/******* Slide 1 *********/
+
+#section1{
+	margin: 0;
+	background-color: lightblue;
+}
+
+.mobile-nav{
+	width: 30%;
+	height: 100%;
+	float: right;
+	border: 1px solid black;
+}
+
+.mobile-nav h6{
+	margin: 20% 35%;
+	text-align: center;
+}
+
+.ticket-container{
+	width: 100%;
+	height: 30%;
+	border: 1px solid black;
+}
+
+.far-left-location{
+	width: 10%;
+	height: 100%;
+	border-right: 1px solid black;
+	display: inline-block;
+}
+
+.section-row-seat{
+	width: 3%;
+	height: 100%;
+	display: inline-block;
+	background-color: maroon;
+}
+
+.ticket-photo{
+	width: 60%;
+	height: 100%;
+	border-right: 1px solid black;
+	display: inline-block;
+}
+
+.ticket-barcode{
+	width: 15%;
+	height: 100%;
+	border-right: 1px solid black;
+	display: inline-block;
+}
+
+/******** Slide 2 ***********/
+
+#section2{
+	background-color: grey;
+}
+>>>>>>> 24595083c97fd556911856a01da73962bc05ecf4
 /******** Slide 3 ***********/
 
 #section3{
 	background-color: maroon;
 	color: white;
+<<<<<<< HEAD
 	height: 60%;
 }
 
@@ -186,4 +297,23 @@ section h2{
 	}
 
 }
+=======
+}
+
+#section3 h4{
+	text-decoration: underline;
+}
+
+/******** Slide 4 ***********/
+
+#section4 img{
+	width: 80%;
+	margin: 0 auto;
+}
+
+
+
+
+
+>>>>>>> 24595083c97fd556911856a01da73962bc05ecf4
 
