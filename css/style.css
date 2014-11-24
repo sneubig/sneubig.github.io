@@ -155,7 +155,7 @@ section h2{
 }
 
 #section4 ul{
-	width: 80%;
+	width: 60%;
 	position: absolute;
 	left: 10%;
 }
@@ -223,7 +223,7 @@ section h2{
 		margin-bottom: 1.5em;
 	}
 	.skills-list{
-		width: 80%;
+		width: 75%;
 		position: relative;
 		left: 20%;
 		display: block;
