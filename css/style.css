@@ -43,7 +43,7 @@ a{
 }
 
 a:visited{
-	color: orange;
+	color: maroon;
 }
 
 .nav-option{
@@ -209,7 +209,7 @@ section h2{
 	}
 }
 
-@media and (min-width: 780px){
+@media (min-width: 780px){
 
 /*Section1*/
 
@@ -243,8 +243,8 @@ section h2{
 	#section2 p{
 		display: inline-block;
 		position: relative;
-		top: 3em;
-		margin-left: 10%;
+		top: -3em;
+		left: 10%;
 	}
 
 /*Section3*/
