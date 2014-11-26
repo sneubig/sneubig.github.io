@@ -207,10 +207,11 @@ section h2{
 @media all and (min-width: 500px){
 
 	#section1{
-		height: 80%;
+		height: 65%;
 	}
 	#section1 h2{
 		text-align: center;
+		padding-top: 1.5em;
 	}
 	#section1 img{
 		width: 35%;
