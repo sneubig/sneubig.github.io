@@ -199,7 +199,7 @@ section h2{
 	width: 3em;
 }
 
-@media (min-width: 500px){
+@media all and (min-width: 500px){
 
 	#section1{
 		height: 80%;
@@ -251,7 +251,7 @@ section h2{
 	}
 }
 
-@media (min-width: 920px){
+@media all and (min-width: 920px){
 
 /*Section1*/
 	
@@ -284,7 +284,7 @@ section h2{
 	}
 	.project-box{
 		display: inline-block;
-		width: 80%;
+		width: 90%;
 		position: relative;
 	/*	left: 10%;*/
 	}
@@ -296,8 +296,7 @@ section h2{
 	#section2 p{
 		display: inline-block;
 		position: relative;
-		top: -3em;
-		left: 10%;
+		top: 0em;
 	}
 
 /*Section3*/
