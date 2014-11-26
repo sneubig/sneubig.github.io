@@ -171,7 +171,7 @@ section h2{
 	background-color: maroon;
 	color: white;
 	height: 60%;
-	min-height: 20em;
+	min-height: 18em;
 }
 
 #section3 h2{
@@ -306,6 +306,9 @@ section h2{
 
 /*Section3*/
 	
+	#section3{
+		height: 50%;
+	}
 	#section3 h2{
 		padding-bottom: .5em;
 	}
@@ -315,6 +318,7 @@ section h2{
 		left: 20%;
 		display: block;
 	}
+
 	#section3 h4{
 		display: inline-block;
 	}
