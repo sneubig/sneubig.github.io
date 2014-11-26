@@ -128,7 +128,7 @@ section h2{
 	display: block;
 	position: relative;
 	padding-top: 1em;
-	left: 5%;
+	/*left: 5%;*/
 	max-width: 12em;
 	min-width: 10em;
 	text-align: center;
@@ -136,7 +136,7 @@ section h2{
 #section1 p{
 	display: block;
 	position: relative;
-	left: 10%;
+	left: 5%;
 	max-width: 25em;
 	min-width: 15em;
 	text-align: center;
@@ -170,11 +170,16 @@ section h2{
 	height: 60%;
 }
 
+#section3 h2{
+	padding-bottom: .5em;
+}
+
 #section3 h4{
 	color: orange;
 /*	text-decoration: underline;
 */}
 
+/******** Slide 4 ***********/
 #section4{
 	height: 30%;
 }
@@ -211,8 +216,9 @@ section h2{
 
 	#section1 h1{
 		position: relative;
-		left: 40%;
+		left: 45%;
 		width: 40%;
+		text-align: center;
 	}
 
 	#section1 p{
@@ -235,6 +241,10 @@ section h2{
 		left: 5%;
 		max-width: 30em;
 	}
+
+	#section3 h2{
+		padding-bottom: .5em;
+	}
 	#section4 ul{
 		position: relative;
 		left: 25%;
@@ -247,12 +257,11 @@ section h2{
 	
 	#section1 h2{
 		position: relative;
-		top: .5em;
 	}
 	#section1 img{
 		position: absolute;
 		left: 10%;
-		top: 10%;
+		top: 15%;
 	}
 
 	#section1 h1{
@@ -294,7 +303,7 @@ section h2{
 /*Section3*/
 	
 	#section3 h2{
-		margin-bottom: 1.5em;
+		padding-bottom: .5em;
 	}
 	.skills-list{
 		width: 75%;
