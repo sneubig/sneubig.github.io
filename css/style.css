@@ -13,7 +13,7 @@ header{
 	height: 10%;
 	min-height: 4em;
 	position: fixed;
-	background-color: white;
+	background-color: maroon;
 	z-index: 20;
 }
 
@@ -40,12 +40,16 @@ h1, h2, h4{
 	text-align: center;
 }
 
-a{
-	color: maroon;
+a:visited{
+	color: orange;
 }
 
-a:visited{
-	color: maroon;
+a{
+	color: white;
+}
+
+a:hover{
+	color: white;
 }
 
 .nav-option{
@@ -78,7 +82,6 @@ a:visited{
 
 .resume{
 }
-
 
 section{
 	width: 100%;
@@ -147,7 +150,7 @@ section h2{
 /******** Slide 4 ***********/
 
 #section2{
-	height: 100%;
+	height: 110%;
 	min-height: 38em;
 }
 
@@ -204,8 +207,9 @@ section h2{
 	width: 3em;
 }
 
-@media all and (min-width: 500px){
+@media (min-width: 500px){
 
+/*Section 1*/
 	#section1{
 		height: 65%;
 	}
@@ -234,6 +238,11 @@ section h2{
 		min-width: 15em;
 	}
 
+/*Section 2*/
+	#section2{
+		height: 120%;
+	}
+
 	#section2 .project-box{
 		display: inline-block;
 		width: 80%;
@@ -244,20 +253,21 @@ section h2{
 	#section2 p{
 		position: relative;
 		top: 1em;
-		left: 5%;
-		max-width: 30em;
 	}
 
+/*Section 3*/
 	#section3 h2{
 		padding-bottom: .5em;
 	}
+
+/*Section 4*/
 	#section4 ul{
 		position: relative;
 		left: 25%;
 	}
 }
 
-@media all and (min-width: 920px){
+@media (min-width: 920px){
 
 /*Section1*/
 	
@@ -284,7 +294,10 @@ section h2{
 	}
 
 /*Section2*/
-
+	
+	#section2{
+		height: 100%;
+	}
 	#section2 h2{
 		margin-bottom: 1.5em;
 	}
@@ -300,9 +313,11 @@ section h2{
 	/*	left: -5%;*/
 	}
 	#section2 p{
+		width: 50%;
 		display: inline-block;
 		position: relative;
 		top: 0em;
+		left: 5em;
 	}
 
 /*Section3*/
