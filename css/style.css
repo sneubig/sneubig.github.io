@@ -211,7 +211,7 @@ section h2{
 
 /*Section 1*/
 	#section1{
-		height: 65%;
+		height: 85%;
 	}
 	#section1 h2{
 		text-align: center;
@@ -270,6 +270,9 @@ section h2{
 @media (min-width: 920px){
 
 /*Section1*/
+	#section1{
+		height: 85%;
+	}
 	
 	#section1 h2{
 		position: relative;
