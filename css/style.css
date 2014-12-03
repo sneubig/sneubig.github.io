@@ -13,7 +13,7 @@ header{
 	height: 10%;
 	min-height: 4em;
 	position: fixed;
-	background-color: maroon;
+	background-color: #000;
 	z-index: 20;
 }
 
@@ -41,15 +41,14 @@ h1, h2, h4{
 }
 
 a:visited{
-	color: orange;
-}
+	color: #fff}
 
 a{
-	color: white;
+	color: #fff
 }
 
 a:hover{
-	color: white;
+	color: #aaa
 }
 
 .nav-option{
@@ -110,29 +109,23 @@ section h2{
 /******** Slide 1 ***********/
 
 #section1{
-	background-color: orange;
+	background-color: white;
 	width: 100%;
 	height: 90%;
 	min-height: 30em;
 }
 
-#section1 h2{
-	color: #000;
-	margin-bottom: 1em;
-	text-align: center;
-}
-
-#section1 img{
+/*#section1 img{
 	width: 20%;
 	min-width: 10em;
 	position: relative;
 	left: 30%;
 }
-
+*/
 #section1 h1{
 	display: block;
 	position: relative;
-	padding-top: 1em;
+	padding-top: 5em;
 	/*left: 5%;*/
 	max-width: 12em;
 	min-width: 10em;
@@ -141,7 +134,7 @@ section h2{
 #section1 p{
 	display: block;
 	position: relative;
-	left: 5%;
+/*	left: 5%;*/
 	max-width: 25em;
 	min-width: 15em;
 	text-align: center;
@@ -225,16 +218,16 @@ section h2{
 	}
 
 	#section1 h1{
-		position: relative;
-		left: 45%;
 		width: 40%;
+		position: relative;
+		left: 30%;
 		text-align: center;
 	}
 
 	#section1 p{
 		width: 50%;
 		position: relative;
-		left: 45%;
+		left: 30%;
 		min-width: 15em;
 	}
 
@@ -285,14 +278,14 @@ section h2{
 
 	#section1 h1{
 		position: relative;
-		left: 50%;
-		top: 10%;
+	/*	top: 10%;*/
+		left: 33%;
 		width: 40%;
 		font-size: 2em;
 	}
 	#section1 p{
 		position: relative;
-		top: 10%;
+	/*	top: 10%;*/
 		font-size: 1.2em;
 	}
 
@@ -301,9 +294,15 @@ section h2{
 	#section2{
 		height: 100%;
 	}
+
 	#section2 h2{
 		margin-bottom: 1.5em;
 	}
+
+	#section2 h4{
+		text-align: left;
+	}
+	
 	.project-box{
 		display: inline-block;
 		width: 90%;
