@@ -149,8 +149,8 @@ section h2{
 	line-height: 1.5em;
 	font-size: 1.2em;
 	font-weight: bold;
-	background-color: rgba(255,255,255,.1);
-	padding: .5em;
+	background-color: rgba(255,255,255,.2);
+	padding: 1em;
 	border-radius: 10%;
 }
 
@@ -218,12 +218,12 @@ section h2{
 
 /*Section 1*/
 	#section1{
-		height: 85%;
+		height: 90%;
 	}
-	#section1 h2{
+/*	#section1 h2{
 		text-align: center;
 		padding-top: 1.5em;
-	}
+	}*/
 	#section1 img{
 		width: 35%;
 		max-width: 15em;
@@ -241,8 +241,10 @@ section h2{
 	#section1 p{
 		width: 50%;
 		position: relative;
-		left: 30%;
+		left: 25%;
+		text-align: center;
 		min-width: 15em;
+		margin-top: 2em;
 	}
 
 /*Section 2*/
@@ -295,14 +297,14 @@ section h2{
 	#section1 h1{
 		position: relative;
 	/*	top: 10%;*/
-		left: 33%;
-		width: 40%;
+		left: 39%;
+		width: 20%;
 		font-size: 2em;
 	}
 	#section1 p{
 		position: relative;
-	/*	top: 10%;*/
-		font-size: 1.2em;
+		left: 26%;
+		font-size: 1.4em;
 	}
 
 /*Section2*/
