@@ -1,5 +1,7 @@
 
-$('.mobile-nav').on('click', function{
-	$('.slide-menu').toggle();
-});
+	$("button").on('click', function() {
+	  $(this).siblings('.read-more').slideToggle( "slow" );
+	});
+
+
 

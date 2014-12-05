@@ -158,7 +158,7 @@ section h2{
 /******** Slide 2 ***********/
 
 #section2{
-	height: 110%;
+	height: 200%;
 	min-height: 38em;
 }
 
@@ -185,6 +185,11 @@ section h2{
 
 #section2 span{
 	font-weight: bold;
+}
+
+#section2 .read-more{
+	font-weight: normal;
+	display: none;
 }
 
 #section2 .project-links{
