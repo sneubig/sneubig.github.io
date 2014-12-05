@@ -192,6 +192,8 @@ section h2{
 	border-radius: 10%;
 	background-color: white;
 	border: none;
+	display: block;
+	margin: 0 auto;
 }
 
 #section2 .read-more{
