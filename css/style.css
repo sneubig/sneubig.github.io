@@ -180,11 +180,18 @@ section h2{
 	margin-left: 10%;
 	display: block;
 	margin-top: 1em;
-
 }
 
 #section2 span{
 	font-weight: bold;
+}
+
+#section2 button{
+	font-style: italic;
+	color: blue;
+	border-radius: 10%;
+	background-color: white;
+	border: none;
 }
 
 #section2 .read-more{
