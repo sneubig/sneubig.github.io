@@ -1,133 +1,187 @@
-<html>
-<head>
-	<title></title>
-	<link rel="stylesheet" type="text/css" href="css/normalize.css">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-</head>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Stephen Neubig</title>
 
-<body>
-	<header>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link href='http://fonts.googleapis.com/css?family=Bree+Serif' rel='stylesheet' type='text/css'>
+  <!--   <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css"> -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
 
-		<div class="mobile-nav">
-			<a href="#section1"><div class="about nav-option"><h6>About</h6></div></a>
-			<a href="#section2"><div class="projects nav-option"><h6>Projects</h6></div></a>
-			<a href="#section3"><div class="skills nav-option"><h6>Skills</h6></div></a>
-			<a href="#section4"><div class="contact nav-option"><h6>Contact</h6></div></a>
-			<a href="img/StephenResume.pdf"><div class="resume nav-option"><h6>Resume</h6></div></a>
-		</div>
-		
-		<nav>
+  </head>
 
-		
-		</nav>
-	</header>
+  <body data-spy="scroll">
+  	<div class="container">
 
-	<section id="section1">
-		<div class="container">
+      <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container-fluid">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <a class="navbar-brand" href="#intro"><span>Stephen Neubig</span></a>
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+          </div>
 
-			
-			<h1> Stephen Neubig </h1>
-			<h3>Proud Hokie | CSS Fanatic | Sports Enthusiast</h3>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li><a href="#about"> About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="img/StephenResume.pdf">Resume</a></li>
+          </ul>
+      
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="http://github.com/sneubig"> <img src="img/github.png"></a></li>
+            <li><a href="mailto:neubig.stephen@gmail.com"><img src="img/email.png"></a></li>
+            <li><a href="http://linkedin.com/in/stephenneubig/"><img src="img/LinkedIn.png"></a></li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
 
-			<p>
-			Full stack web developer with a marketing touch, passionate and loyal to the brands, products, and communities I admire. Motivated by innovative thought and engaging communication, I build captivating experiences that enhance the overall brand awareness.
-			</p>
+      <section id="intro" class="row">
+
+        <div class="intro-content col-xs-10 col-xs-offset-1 col-md-6 col-md-offset-3">
+          <h1>Stephen Neubig</h1>
+          <h4>Proud Hokie | CSS Fanatic | Sports Enthusiast</h4>
+        </div>
+        <div class="down-arrow">▼</div>
+		  </section>
+
+      <section id="about" class="row">
+        <div class="about-content col-xs-10 col-xs-offset-1 col-md-6 col-md-offset-3">
+          <h2>About Me</h2>
+          <img src="img/StephenPhoto.jpg">
+          <h3>Full Stack Web Developer</h3>
+          <p>
+            Full stack web developer with a marketing touch, passionate and loyal to the brands, products, and communities I admire. Motivated by innovative thought and engaging communication, I build captivating experiences that enhance the overall brand awareness.
+          </p>
+        </div>
+      </section>
+
+      <section id="projects" class="row">
+        <h2>Projects</h2>
+        <div class="project col-sm-5 col-sm-offset-1 col-md-4 col-md-offset-2">
+          <div class="thumbnail">
+            <a href="http://big-design.herokuapp.com/"><img src="img/BigDesign.png" alt="Big-Design Picture"></a>
+            <div class="caption">
+              <div class="caption-title">
+                <h4>Big Design</h4>
+                <a href="https://github.com/sneubig/Big-Design"> https://github.com/sneubig/Big-Design </a>
+              </div>
+              <p><span>Summary: </span> I wanted to create a project that focused on refining my JavaScript, while using my passion for CSS to create a realistic experience. I'm proud of the fact that no images were used for this project, it's all CSS styling.</p>
+             <!--  <button>Read More...</button> -->
+            </div>
+          </div>
+        </div>
+
+          <!--     <div class="read-more"> 
+                <p> <span>Favorite Part: </span> Making the cursor move around the laptop when you mouseover the laptops mousepad.</p>
+                <p> 
+                  <span>Hardest Part: </span> Making the pencil look as if it was actually writing. I am really into using SVG images and animations, so I wanted to push myself to expand on my knowledge of SVG animations using CSS. I definitely underestimated the difficulty of this. I was hoping to not use any plug-ins, but given the time constraint, I ended up using pathAnimator.
+                  
+                </p>
+                <p> 
+                  <span>Features to Add: </span> When the user submits a search query, instead of opening a separate tab with the search results, I want the search results to show up within the laptops screen. After doing some research, I believe I'll have to use the Google Search API to retrieve the JSON data of the specific search criteria. Then I will have to style the data with CSS to look like the google search results page. Really excited and motivated to make this a reality!
+                </p>
+              </div> -->
+              
+
+           
+
+        <div class="project col-sm-5 col-md-4">
+          <div class="thumbnail">
+            <a href="http://cirrusweather.herokuapp.com"><img src="img/CirrusWeather.png"></a>
+
+            <div class="caption">
+              <div class="caption-title">
+                <h4>Cirrus Weather</h4>
+                <a class="project-links" href="http://cirrusweather.herokuapp.com">https://github.com/pmills88/Cirrus-Weather</a>
+              </div>
+              <p> <span> Summary: </span> This was a group project with 3 other students over four days. My responsibilities included helping with the front-end, and doing all the SVG animations.</p>
+              
+              <!-- <p> <span>Why?</span> Our group decided to focus on creating a clean design with a friendly user experience.</p>
+              
+              <p> <span>Favorite Part: </span> Working with SVG Animations for the first time.</p> -->
+            </div>
+          </div>
+        </div>
+      </section>
+
+    
+        
+      <section id="skills" class="row">
+          <h2>Skills</h2>
+          
+          <div class="languages txt-center col-md-3">
+            <h4>Languages</h4>
+            <ul class="col-md-12">
+              <li> Ruby </li>
+              <li> JavaScript </li>
+              <li> SQL </li>
+              <li> HTML </li>
+              <li> CSS </li>
+            </ul>
+          </div>
+          
+          <div class="frameworks txt-center col-md-3">
+            <h4>Libraries/Frameworks</h4>
+            <ul class="col-md-12">
+              <li> Rails </li>
+              <li> jQuery </li>
+              <li> Angular </li>
+              <li> Sinatra </li>
+              <li> Rspec </li>
+              <li> Ajax </li>
+              <li> underscore.js </li>
+              <li> backbone.js </li>
+              <li> Sass </li>
+              <li> Foundation </li>
+            </ul>
+          </div>
+          
+          <div class="management txt-center col-md-3">
+            <h4> Management/Deployment</h4>
+            <ul class="col-md-12">
+              <li> Git </li>
+              <li> Heroku </li>
+              <li> Pivotal Tracker </li>
+            </ul>
+          </div>
+          
+          <div class="methodologies txt-center col-md-3">
+            <h4> Methodologies </h4>
+            <ul class="col-md-12">
+              <li> TDD </li>
+              <li> REST </li>
+              <li> MVC </li>
+              <li> OOP </li>
+            </ul>
+          </div>
+      <!-- Row Div -->
+      </section>
+
+      <div class="row footer">
+        <p>Stephen Neubig 2014</p>
+      </div>
 
 
-		</div>
+    <!-- Container Div   --> 
+    </div>
 
 
-	</section>
-
-	<section id="section2">
-		<div class="container">
-			<h2>Projects</h2>
-
-			<div class="project-box">	
-				
-				<a href="http://big-design.herokuapp.com"><img src="img/BigDesign.png"></a>
-				
-				<h4>Big Design</h4>
-				
-				<a class="project-links" href="https://github.com/sneubig/Big-Design"> https://github.com/sneubig/Big-Design </a>
-				
-				<p> <span>Summary: </span> I wanted to create a project that focused on refining my JavaScript, while using my passion for CSS to create a realistic experience. I'm proud of the fact that no images were used for this project, it's all CSS styling. </p>
-
-				<div class="read-more"> 
-					<p> <span>Favorite Part: </span> Making the cursor move around the laptop when you mouseover the laptops mousepad.</p>
-					<p> 
-						<span>Hardest Part: </span> Making the pencil look as if it was actually writing. I am really into using SVG images and animations, so I wanted to push myself to expand on my knowledge of SVG animations using CSS. I definitely underestimated the difficulty of this. I was hoping to not use any plug-ins, but given the time constraint, I ended up using pathAnimator.
-						
-					</p>
-					<p> 
-						<span>Features to Add: </span> When the user submits a search query, instead of opening a separate tab with the search results, I want the search results to show up within the laptops screen. After doing some research, I believe I'll have to use the Google Search API to retrieve the JSON data of the specific search criteria. Then I will have to style the data with CSS to look like the google search results page. Really excited and motivated to make this a reality!
-					</p>
-				</div>
-				<button>Read More...</button>
-
-			</div>
-
-			<hr>
-
-			<div class="project-box">
-
-				<a href="http://cirrusweather.herokuapp.com"><img src="img/CirrusWeather.png"></a>
-
-				<h4>Cirrus Weather</h4>
-
-				<a class="project-links" href="http://cirrusweather.herokuapp.com">https://github.com/pmills88/Cirrus-Weather</a>
-				
-				<p> <span> Summary: </span> This was a group project with 3 other students over four days. My responsibilities included helping with the front-end, and doing all the SVG animations.</p>
-				<p> <span>Why?</span> Our group decided to focus on creating a clean design with a friendly user experience.</p>
-				<p> <span>Favorite Part: </span> Working with SVG Animations for the first time.</p>
-			</div>
-		</div>
-
-	</section>
-
-	<section id="section3">
-		<div class="container">
-			<h2>Skills</h2>
-
-			<div class="skills-list">
-				<h4>Languages</h4>
-				<p>Ruby, JavaScript, SQL, HTML, CSS</p>
-			</div>
-		
-			<div class="skills-list">
-				<h4>Libraries/Frameworks</h4>
-		  	<p>Rails, jQuery, Angular, Sinatra, Rspec, Ajax, underscore.js, backbone.js, Sass, Foundation</p>
-		  </div>
-		
-			<div class="skills-list">
-				<h4> Management/Deployment</h4>
-		  	<p>Git, Heroku, Pivotal Tracker</p>
-		  </div>
-			
-			<div class="skills-list">
-				<h4> Methodologies </h4>
-				<p> TDD, REST, MVC, OOP </p>
-			</div>
-		<!-- </div> -->
-
-	</section>
-
-	<section id="section4">
-		<div class="container">
-
-			<h2>Contact</h2>
-
-			<ul>
-    		<li><a href="http://github.com/sneubig"> <img src="img/github.png"></a></li>
-				<li><a href="mailto:neubig.stephen@gmail.com"><img src="img/email.png"></a></li>
-				<li><a href="http://linkedin.com/in/stephenneubig/"><img src="img/LinkedIn.png"></a></li>
-			</ul>
-
-
-	</section>
-
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-	<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-smoove/0.2.6/jquery.smoove.min.js"></script>
-	<script type="text/javascript" src="js/script.js"></script>
-</body>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+  </body>
 </html>

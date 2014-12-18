@@ -1,414 +1,187 @@
-/******* General ********/
-*{
-	box-sizing: border-box;
-}
-
 body, html{
 	width: 100%;
-	height: 100%;
+	margin-top: 2.5em;
+	position: relative;
+	background-color: #f7f7f7;
 }
 
-header{
-	width: 100%;
-	height: 8%;
-	min-height: 3.5em;
-	position: fixed;
-	background-color: #000;
-	z-index: 20;
+li{
+	list-style-type: none;
 }
 
-header h3{
-	display: inline-block;
-	float: left;
-	margin-left: 5%;
-}
-
-nav{
-	display: none;
-}
-
-h1, h2, h4{
+h1,h2,h3,h4,h5,h6{
 	margin: 0;
 }
 
-.mobile-nav{
-	width: 100%;
-	height: 100%;
-	min-height: 3em;
-	float: right;
+h2{
 	text-align: center;
-}
-
-a:visited{
-	color: #fff}
-
-a{
-	color: #fff;
-	position: relative;
-	bottom: .5em;
-}
-
-a:hover{
-	color: #aaa
-}
-
-.nav-option{
-	width: 19%;
-	height: 100%;
-	display: inline-block;
-}
-
-.nav-option h6{
-	position: relative
-	top: 0em;
-	text-align: center;
-	font-size: .8em;
-}
-
-.about{
-	border-right: 1px solid black;
-}
-.projects{
-	border-right: 1px solid black;
-}
-
-.skills{
-	border-right: 1px solid black;
-}
-
-.contact{
-	border-right: 1px solid black;
-}
-
-.resume{
-}
-
-section{
-	width: 100%;
-	height: 75%;
-/*	border: 1px solid black;*/
-/*	margin: 5% 0;*/
-	position: relative;
-	top: 3em;
-	display: block;
-
-}
-
-section h2{
 	text-decoration: underline;
-	text-align: center;
-	margin: 0em auto;
-	padding-top: 1em;
+	padding: 1em 0;
+	font-family: 'Bree Serif', serif;
 }
 
-.container{
-	width: 90%;
-	height: 100%;
-	margin-left: 5%;
+h4{
+	font-size: 1.1em;
 }
 
+nav img{
+	width: 2em;
+	margin: 0;
+}
 
-/******** Slide 1 ***********/
+.navbar{
+	background-color: #fff;
+}
 
-#section1{
-	width: 100%;
-	height: 92%;
-	background-image: url(http://www.zingerbugimages.com/backgrounds/deep_red_parchment_paper_background_1800x1600.jpg);
+.navbar li a{
+	font-family: 'Bree Serif', serif;
+	font-size: 1em;
+	position: relative;
+	top: .2em;
+}
+
+.collapse li:hover{
+	background-color: maroon;
+}
+
+.collapse li a{
+	padding-left: 2em;
+}
+
+.navbar-brand{
+	font-family: 'Bree Serif', serif;
+	font-size: 1.8em;
+}
+
+.navbar-brand span{
+	color: maroon;
+}
+
+.navbar-header{
+	padding-left: 1em;
+}
+
+.navbar-right{
+	margin-right: 1em;
+}
+
+.navbar-right li:hover{
+	background-color: #fff;
+}
+
+.navbar-header button{
+	margin-right: 2em;
+}
+
+.row{
+	padding-bottom: 5%;
+}
+
+#intro{
+	padding-top: 5%;
+	background-image: url(../img/lane-stadium.jpg);
 	background-size: cover;
-	min-height: 38em;
+	background-position: top center;
+	height: 40em;
 }
 
-/*#section1 img{
-	width: 20%;
-	min-width: 10em;
-	position: relative;
-	left: 30%;
-}
-*/
-#section1 h1{
-	display: block;
-	position: relative;
-	padding-top: 3em;
-	/*left: 5%;*/
-	min-width: 8em;
+.intro-content{
+	margin-top: 10%;
 	text-align: center;
-	color: #fff;
+	color: maroon;
+	font-size: 1.5em;
+	line-height: 1.4;
+	background-color: #fff;
+	opacity: .8;
+	border-radius: 10px;
+	padding: .5em;
 }
 
-#section1 h3{
+.down-arrow {
+	width: 10em;
+}
+
+.about-content{
 	text-align: center;
-	color: #fff;
 }
 
-#section1 p{
-	display: block;
-	position: relative;
-/*	left: 5%;*/
-	max-width: 25em;
-	min-width: 15em;
-	text-align: center;
-	color: #000;
-	line-height: 1.5em;
-	font-size: 1.2em;
-	font-weight: bold;
-	background-color: rgba(255,255,255,.2);
-	padding: 1em;
-	border-radius: 10%;
-}
-
-/******** Slide 2 ***********/
-
-#section2{
-	min-height: 62em;
-}
-
-#section2 h4{
-	text-align: center;
-	margin-bottom: 1.5em;
-}
-
-#section2 img{
-	width: 90%;
-	max-width: 40em;
-	margin: 0 auto;
-	margin-top: 2em;
-	display: block;
-}
-
-#section2 p{
-	width: 80%;
-	margin-left: 10%;
-	display: block;
+.about-content h3{
 	margin-top: 1em;
 }
 
-#section2 span{
-	font-weight: bold;
+.about-content p{
+	margin-top: 1.5em;
+	font-size: 1.2em;
 }
 
-#section2 button{
-	font-style: italic;
-	color: blue;
-	border-radius: 10%;
-	background-color: white;
-	border: none;
-	display: block;
-	margin: 0 auto;
+#about img{
+	border-radius: 100%;
+	width: 15em;
 }
 
-#section2 .read-more{
-	display: none;
+#projects{
+	background-color: #fff;
 }
 
-#section2 .project-links{
-	width: 100%;
-	color: #000;
-	font-style: italic;
-	display: block;
+.caption a{
 	text-align: center;
 }
 
-/******** Slide 3 ***********/
+.project img{
+	width: 100%;
+}
 
-#section3{
+.caption-title{
+	text-align: center;
+}
+.caption p{
+	margin-top: 1em;
+}
+
+.caption span{
+	font-weight: bold;
+}
+
+#skills{
+	background-color: #ddd;
+}
+
+#skills ul{
+	margin: 1em auto;
+}
+
+.box{
+	background-color: white;
+}
+
+.txt-center{
+	text-align: center;
+}
+
+.languages{
+	border-right: 1px solid black;
+}
+
+.frameworks{
+	border-right: 1px solid black;
+}
+
+.management{
+	border-right: 1px solid black;
+}
+
+.footer{
+	height: 4em;
 	background-color: maroon;
-	color: white;
-	height: 60%;
-	min-height: 24em;
 }
 
-#section3 h2{
-	padding-bottom: .5em;
+.footer p{
+	text-align: center;
+	margin-top: 1.2em;
+	font-weight: bolder;
+	color: #fff;
 }
 
-#section3 h4{
-	color: orange;
-/*	text-decoration: underline;
-*/}
 
-/******** Slide 4 ***********/
-#section4{
-	height: 25%;
-	min-height: 4em;
-}
-
-#section4 ul{
-	width: 80%;
-	position: absolute;
-	left: 10%;
-}
-#section4 li{
-	list-style-type: none;
-	display: inline-block;
-	padding: 1em;
-}
-
-#section4 img{
-	width: 3em;
-}
-
-@media (min-width: 500px){
-
-/*Section 1*/
-	#section1{
-		height: 90%;
-	}
-/*	#section1 h2{
-		text-align: center;
-		padding-top: 1.5em;
-	}*/
-	#section1 img{
-		width: 35%;
-		max-width: 15em;
-		position: absolute;
-		left: 5%;
-	}
-
-	#section1 h1{
-		width: 40%;
-		position: relative;
-		left: 30%;
-		text-align: center;
-	}
-
-	#section1 p{
-		width: 50%;
-		position: relative;
-		left: 25%;
-		text-align: center;
-		min-width: 15em;
-		margin-top: 2em;
-	}
-
-/*Section 2*/
-	#section2{
-		height: 178%;
-	}
-/*
-	#section2 .project-links{
-		width: 90%;
-		display: block;
-		text-align: center;
-		color: #000;
-	}
-
-	#section2 p{
-		width: 90%;
-		margin-left: 5%;
-		text-align: left;
-	}
-
-/*Section 3*/
-	#section3 h2{
-		padding-bottom: .5em;
-	}
-
-/*Section 4*/
-	#section4 ul{
-		position: relative;
-		left: 25%;
-	}
-}
-
-@media (min-width: 920px){
-
-/*Section1*/
-	#section1{
-		height: 90%;
-		background-image: url(http://www.zingerbugimages.com/backgrounds/deep_red_parchment_paper_background_1800x1600.jpg);
-		background-size: cover;
-	}
-	
-	#section1 h2{
-		position: relative;
-	}
-	#section1 img{
-		position: absolute;
-		left: 10%;
-		top: 15%;
-	}
-
-	#section1 h1{
-		position: relative;
-	/*	top: 10%;*/
-		left: 39%;
-		width: 20%;
-		font-size: 2em;
-	}
-	#section1 p{
-		position: relative;
-		left: 26%;
-		font-size: 1.4em;
-	}
-
-/*Section2*/
-	
-	#section2{
-		height: 180%;
-		min-height: 74em;
-	}
-
-	#section2 p{
-		width: 60%;
-		margin-left: 20%;
-		text-align: left;
-	}
-
-	/*#section2 h4{
-		text-align: left;
-	}*/
-
-	/*.project-box{
-		display: inline-block;
-		width: 90%;
-		position: relative;
-	/*	left: 10%;*/
-/*	}*/
-/*	#section2 img{
-		display: inline-block;
-		position: relative;*/
-	/*	left: -5%;*/
-	/*}
-	#section2 p{
-		width: 50%;
-		display: inline-block;
-		position: relative;
-		top: 0em;
-		left: 5em;
-	}*/
-
-/*Section3*/
-	
-	#section3{
-		height: 50%;
-		min-height: 20em;
-	}
-	#section3 h2{
-		padding-bottom: .5em;
-	}
-	.skills-list{
-		width: 75%;
-		position: relative;
-		left: 20%;
-		display: block;
-	}
-
-	#section3 h4{
-		display: inline-block;
-	}
-
-	#section3 p{
-		max-width: 40em;
-		position: relative;
-		display: inline-block;
-	}
-
-/*Section4*/
-
-#section4 ul{
-	width: 60%;
-	position: relative;
-	left: 35%;
-}
 
 
