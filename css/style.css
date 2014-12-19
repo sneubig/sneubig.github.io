@@ -4,7 +4,7 @@ body, html{
 	max-width: 100%;
 	margin-top: 2.5em;
 	position: relative;
-	background-color: #f7f7f7;
+	background-color: #ddd;
 }
 
 li{
@@ -118,6 +118,9 @@ nav img{
 
 
 /******* About Me *********/
+#about{
+
+}
 .about-content{
 	text-align: center;
 }
