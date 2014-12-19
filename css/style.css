@@ -55,6 +55,7 @@ h4{
 
 .navbar-header{
 	padding-left: 1em;
+	height: 4.2em;
 }
 
 .navbar-header button{
@@ -94,15 +95,23 @@ nav img{
 }
 
 .intro-content{
-	margin-top: 10%;
+	margin-top: 8%;
 	text-align: center;
 	color: maroon;
 	font-size: 1.5em;
 	line-height: 1.4;
 	background-color: #fff;
-	opacity: .8;
+	opacity: .9;
 	border-radius: 10px;
 	padding: .5em;
+}
+
+.intro-content h1{
+	margin-bottom: .5em;
+}
+
+.intro-content h5{
+	font-size: 1em;
 }
 
 
@@ -192,6 +201,7 @@ nav img{
 
 
 @media (min-width: 768px){
+
 	.r-border{
 		border-right: 1px solid black;
 	}
