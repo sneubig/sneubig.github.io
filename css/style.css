@@ -104,10 +104,14 @@ nav img{
 
 .intro-content h1{
 	margin-bottom: .5em;
+	font-family: 'Rambla', sans-serif;
+	font-weight: bolder;
 }
 
 .intro-content h5{
 	font-size: 1em;
+	font-family: 'Rambla', sans-serif;
+	font-weight: bolder;
 }
 
 
@@ -119,11 +123,13 @@ nav img{
 
 .about-content h3{
 	margin-top: 1em;
+	font-family: 'Rambla', sans-serif;
 }
 
 .about-content p{
 	margin-top: 1.5em;
 	font-size: 1.2em;
+	font-family: 'Rambla', sans-serif;
 }
 
 #about img{
@@ -194,6 +200,7 @@ nav img{
 	margin-top: 1.2em;
 	font-weight: bolder;
 	color: #fff;
+	font-family: 'Rambla', sans-serif;
 }
 
 
@@ -201,7 +208,7 @@ nav img{
 	.navbar-right li:hover{
 		background-color: #fff;
 	}
-	
+
 	.r-border{
 		border-right: 1px solid black;
 	}
