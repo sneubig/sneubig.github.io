@@ -1,5 +1,7 @@
+/******* General *********/
 body, html{
 	width: 100%;
+	max-width: 100%;
 	margin-top: 2.5em;
 	position: relative;
 	background-color: #f7f7f7;
@@ -24,11 +26,13 @@ h4{
 	font-size: 1.1em;
 }
 
-nav img{
-	width: 2em;
-	margin: 0;
+.row{
+	padding-bottom: 5%;
 }
 
+
+
+/******* Navigation *********/
 .navbar{
 	background-color: #fff;
 }
@@ -38,14 +42,6 @@ nav img{
 	font-size: 1em;
 	position: relative;
 	top: .2em;
-}
-
-.collapse li:hover{
-	background-color: maroon;
-}
-
-.collapse li a{
-	padding-left: 2em;
 }
 
 .navbar-brand{
@@ -61,6 +57,10 @@ nav img{
 	padding-left: 1em;
 }
 
+.navbar-header button{
+	margin-right: 2em;
+}
+
 .navbar-right{
 	margin-right: 1em;
 }
@@ -69,14 +69,22 @@ nav img{
 	background-color: #fff;
 }
 
-.navbar-header button{
-	margin-right: 2em;
+nav img{
+	width: 2em;
+	margin: 0;
 }
 
-.row{
-	padding-bottom: 5%;
+.collapse li:hover{
+	background-color: maroon;
 }
 
+.collapse li a{
+	padding-left: 2em;
+}
+
+
+
+/******* Intro *********/
 #intro{
 	padding-top: 5%;
 	background-image: url(../img/lane-stadium.jpg);
@@ -97,10 +105,9 @@ nav img{
 	padding: .5em;
 }
 
-.down-arrow {
-	width: 10em;
-}
 
+
+/******* About Me *********/
 .about-content{
 	text-align: center;
 }
@@ -119,6 +126,9 @@ nav img{
 	width: 15em;
 }
 
+
+
+/******* Projects *********/
 #projects{
 	background-color: #fff;
 }
@@ -142,6 +152,9 @@ nav img{
 	font-weight: bold;
 }
 
+
+
+/******* Skills *********/
 #skills{
 	background-color: #ddd;
 }
@@ -158,18 +171,13 @@ nav img{
 	text-align: center;
 }
 
-.languages{
-	border-right: 1px solid black;
+.r-border{
+	border-right: none;
 }
 
-.frameworks{
-	border-right: 1px solid black;
-}
 
-.management{
-	border-right: 1px solid black;
-}
 
+/******* Footer *********/
 .footer{
 	height: 4em;
 	background-color: maroon;
@@ -182,6 +190,12 @@ nav img{
 	color: #fff;
 }
 
+
+@media (min-width: 768px){
+	.r-border{
+		border-right: 1px solid black;
+	}
+}
 
 
 
