@@ -84,6 +84,7 @@ nav img{
 /******* Intro *********/
 #intro{
 	padding-top: 5%;
+	background: white;
 	background-image: url(../img/lane-stadium.jpg);
 	background-size: cover;
 	background-position: top center;
@@ -122,7 +123,7 @@ nav img{
 }
 
 .about-content h3{
-	margin-top: 1em;
+	margin-top: .5em;
 	font-family: 'Rambla', sans-serif;
 }
 
