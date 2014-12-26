@@ -149,7 +149,11 @@ nav img{
 	background-color: #fff;
 }
 
-.caption a{
+.project-links{
+	text-align: center;
+}
+
+.caption-title a{
 	text-align: center;
 }
 
@@ -213,10 +217,14 @@ nav img{
 		background-color: #fff;
 	}
 
+}
+
+@media (min-width: 992px){
 	.r-border{
 		border-right: 1px solid black;
 	}
 }
+
 
 
 
