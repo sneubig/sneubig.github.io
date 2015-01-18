@@ -111,11 +111,11 @@ nav img{
 	background-image: url(../img/lane-stadium.jpg);
 	background-size: cover;
 	background-position: top center;
-	height: 40em;
+	height: 45em;
 }
 
 .intro-content{
-	margin-top: 8%;
+	margin-top: 15%;
 	text-align: center;
 	color: maroon;
 	font-size: 1.5em;
@@ -244,6 +244,10 @@ nav img{
 	.navbar-default .navbar-collapse, .navbar-default .navbar-form{
 		border: none;
 		border-bottom: 1px solid #ccc;
+	}
+
+	.intro-content{
+		margin-top: 10%;
 	}
 }
 
