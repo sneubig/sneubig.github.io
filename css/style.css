@@ -92,6 +92,16 @@ nav img{
 	padding-left: 2em;
 }
 
+.headroom {
+    transition: transform 500ms linear;
+}
+.headroom--pinned {
+    transform: translateY(0%);
+}
+.headroom--unpinned {
+    transform: translateY(-120%);
+}
+
 
 
 /******* Intro *********/
